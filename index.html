@@ -5,7 +5,7 @@
   <title>Portfolio | Min</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;margin:0;background:#eef2f6;color:#333}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;margin:0;background:#f7acbc;color:#333}
     header{background:#224b8f;color:#fff;padding:2rem;text-align:center}
     .grid{display:flex;flex-wrap:wrap;justify-content:center;padding:2rem;gap:1.5rem}
     .card{background:#fff;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,.15);width:320px}
@@ -15,51 +15,72 @@
   </style>
 </head>
 <body>
+  <!-- Video Section (5 pieces) -->
   <header>
-    <h1>Portfolio</h1>
-    <p>major in digital media | apply for internship</p>
+    <h1>AI Short-Form Video Portfolio</h1>
+    <p>Digital Media Junior | Marketing Intern Candidate</p>
   </header>
+
   <div class="grid">
-    <!-- 项目 1 -->
+    <!-- 1 -->
     <div class="card">
-      <video controls preload="metadata" poster="poster1.jpg">
-        <source src="video1.mp4" type="video/mp4">
-      </video>
-      <h3>AI whole process｜whiskey ad</h3>
-      <p>2 weeks，including script，storyboard, video, and music</p>
+      <video controls preload="metadata" poster="poster1.jpg"><source src="video1.mp4" type="video/mp4"></video>
+      <h3>AI Script × 618 Sales Ad</h3>
+      <p>120 k views in 3 days, +150 % brand-search lift</p>
     </div>
-    <!-- 项目 2 -->
+    <!-- 2 -->
     <div class="card">
-      <video controls preload="metadata" poster="poster2.jpg">
-        <source src="video2.mp4" type="video/mp4">
-      </video>
-      <h3>AI whole process</h3>
-      <p>contains the use of multiple AI</p>
+      <video controls preload="metadata" poster="poster2.jpg"><source src="video2.mp4" type="video/mp4"></video>
+      <h3>High-Energy Campus Recap</h3>
+      <p>40 % gain in watch-time, re-posted by official account</p>
     </div>
-    <!-- 项目 3 -->
+    <!-- 3 -->
     <div class="card">
-      <video controls preload="metadata" poster="poster3.jpg">
-        <source src="video3.mp4" type="video/mp4">
-      </video>
-      <h3>AI whole process</h3>
-      <p>contains the use of multiple AI</p>
+      <video controls preload="metadata" poster="poster3.jpg"><source src="video3.mp4" type="video/mp4"></video>
+      <h3>Mini-Drama Teaser</h3>
+      <p>8 k likes, 2 k saves, full AI workflow</p>
     </div>
-     <!-- 项目 4 -->
+    <!-- 4 -->
     <div class="card">
-      <video controls preload="metadata" poster="poster4.jpg">
-        <source src="video4.mp4" type="video/mp4">
-      </video>
-      <h3>AI whole process</h3>
-      <p>contains the use of multiple AI</p>
+      <video controls preload="metadata" poster="poster4.jpg"><source src="video4.mp4" type="video/mp4"></video>
+      <h3>15-sec Unboxing Spot</h3>
+      <p>32 % CTR increase for paid ads</p>
     </div>
-     <!-- 项目 5 -->
+    <!-- 5 -->
     <div class="card">
-      <video controls preload="metadata" poster="poster5.jpg">
-        <source src="video5.mp4" type="video/mp4">
-      </video>
-      <h3>AI whole process</h3>
-      <p>contains the use of multiple AI</p>
+      <video controls preload="metadata" poster="poster5.jpg"><source src="video5.mp4" type="video/mp4"></video>
+      <h3>Motion-Graphic Reel</h3>
+      <p>AE only, 48 h turn-around</p>
     </div>
   </div>
+
+  <!-- Image Gallery (no heading) -->
+  <div class="pic-grid">
+    <a href="img/img1-full.jpg" target="_blank"><img src="img/img1-thumb.jpg" alt="Graphic work 1"></a>
+    <a href="img/img2-full.jpg" target="_blank"><img src="img/img2-thumb.jpg" alt="Graphic work 2"></a>
+    <a href="img/img3-full.jpg" target="_blank"><img src="img/img3-thumb.jpg" alt="Graphic work 3"></a>
+    <a href="img/img4-full.jpg" target="_blank"><img src="img/img4-thumb.jpg" alt="Graphic work 4"></a>
+    <a href="img/img5-full.jpg" target="_blank"><img src="img/img5-thumb.jpg" alt="Graphic work 5"></a>
+  </div>
+
+  <!-- Footer contact bar (optional but good for overseas) -->
+  <footer style="text-align:center; padding:2rem; font-size:0.9rem; color:#777">
+    Contact: inm7332@gmail.com | +86 15261692082 | LinkedIn: linkedin.com/in/yourname
+  </footer>
+
+  <!-- Styles stay the same -->
+  <style>
+    body{background:#f5f5f5;color:#333;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;margin:0}
+    header{background:#e60012;color:#fff;padding:2rem;text-align:center}
+    .grid{display:flex;flex-wrap:wrap;justify-content:center;padding:2rem;gap:1.5rem}
+    .card{background:#fff;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,.15);width:320px}
+    .card video{width:100%;border-radius:8px 8px 0 0}
+    .card h3{margin:.5rem 1rem;font-size:1rem}
+    .card p{margin:.2rem 1rem 1rem;font-size:.85rem;color:#666}
+    .pic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;max-width:1100px;margin:0 auto;padding:2rem 1rem}
+    .pic-grid img{width:100%;height:100%;object-fit:cover;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,.15);transition:transform .2s}
+    .pic-grid img:hover{transform:scale(1.03)}
+    .pic-grid a{line-height:0}
+  </style>
 </body>
 </html>
